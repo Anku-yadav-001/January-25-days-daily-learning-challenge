@@ -20,12 +20,3 @@ def maxDepth(root):
     left_depth = maxDepth(root.left)
     right_depth = maxDepth(root.right)
     return 1 + max(left_depth, right_depth)
-
-# Input
-# nodes = [67, 99, 100, 36, 78, 21, 82, 98, 33, 45]
-# root = None
-# for value in nodes:
-#     root = insertNode(root, value)
-
-# Output the maximum depth
-# print(maxDepth(root))  # Output: 5
