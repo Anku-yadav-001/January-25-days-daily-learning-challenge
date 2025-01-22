@@ -19,8 +19,7 @@ For each query, print `YES` if there exists a direct road between 𝑋 and 𝑌,
 
 
 ## Example 
-- **Input** 
-# Example usage:
+- *Input* 
 - n = 5
 - m = 6
 - roads_input = [
@@ -38,7 +37,7 @@ For each query, print `YES` if there exists a direct road between 𝑋 and 𝑌,
     (1, 5)
 ]
 
-- **Output** 
+- *Output* 
 `
 - NO
 - YES
