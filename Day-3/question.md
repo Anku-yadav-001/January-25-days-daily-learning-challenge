@@ -21,9 +21,9 @@ For each query, print `YES` if there exists a direct road between 𝑋 and 𝑌,
 ## Example 
 - **Input** 
 # Example usage:
-n = 5
-m = 6
-roads_input = [
+- n = 5
+- m = 6
+- roads_input = [
     (1, 2),
     (1, 3),
     (2, 3),
@@ -31,8 +31,8 @@ roads_input = [
     (3, 5),
     (4, 5)
 ]
-q = 3
-queries = [
+- q = 3
+- queries = [
     (2, 4),
     (1, 3),
     (1, 5)
@@ -40,7 +40,7 @@ queries = [
 
 - **Output** 
 `
-NO
-YES
-NO
+- NO
+- YES
+- NO
 `
